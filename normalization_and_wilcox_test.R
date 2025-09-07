@@ -35,7 +35,7 @@ df <- df[,-c(1:4)]
 
 
 # load ctDNA values
-annot <- read.delim(./annotation_data.txt', row.names=1)
+annot <- read.delim('./annotation_data.txt', row.names=1)
 
 all.equal(rownames(annot), colnames(df))
 
