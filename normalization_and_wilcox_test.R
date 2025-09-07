@@ -11,7 +11,6 @@ data = data.frame(gene = file$site_name)
 data_names <- data.frame()
 
 for (i in list_files) {
-    # read the data
     file_data <- read.delim(i) #
     file_data <- file_data[,c('central_coverage')]
     name <- sub('GC_corrected.coverage.tsv','',i)
