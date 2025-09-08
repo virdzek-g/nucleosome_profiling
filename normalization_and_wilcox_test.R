@@ -39,7 +39,7 @@ annot <- read.delim('./annotation_data.txt', row.names=1)
 
 all.equal(rownames(annot), colnames(df))
 
-##Quantily normalization
+##Quantile normalization
 library(preprocessCore)
 library(pheatmap)
 
