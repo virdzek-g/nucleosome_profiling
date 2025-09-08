@@ -11,7 +11,7 @@ reuse Anaconda3
 #reuse .anaconda3-2022.05
 
 
-source activate griffin_demo
+source activate griffin
 
 cd /griffin_GC_and_mappability_correction
 snakemake -s griffin_GC_and_mappability_correction.snakefile --cores 1
