@@ -10,8 +10,8 @@ source /broad/software/scripts/useuse
 reuse Anaconda3
 #reuse .anaconda3-2022.05
 
-#source activate /broad/hptmp/Virdzekova/Griffin_conda_env
-source activate griffin_demo
+
+source activate griffin
 
 cd /griffin_nucleosome_profiling
 snakemake -s griffin_nucleosome_profiling.snakefile --cores 1
